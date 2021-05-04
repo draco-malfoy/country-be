@@ -19,7 +19,7 @@ import com.mt.country.service.CountryService;
 
 @RestController
 @RequestMapping("/country")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://country-fe.herokuapp.com/")
 public class CountryController {
 
 	private CountryService countryService;
